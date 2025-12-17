@@ -15,7 +15,7 @@ Designed and developed by **@codingwithrahul**
 - Vanilla JavaScript
 
 # Live Demo
-https://codingwithrahul.github.io/premium-age-calculator/
+https://codingwithrahul.github.io/age-calculator/
 
 # File Structure
 index.html
