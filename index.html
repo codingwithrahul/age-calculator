@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Age Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <h2>Premium Age Calculator</h2>
+        <p class="subtext">Built with ❤️ by @codingwithrahul</p>
+
+        <div class="input-group">
+            <label>Select your Birth Date</label>
+            <input type="date" id="dob">
+        </div>
+        
+        <button onclick="calculateAll()">Calculate Age</button>
+
+        <div id="output" class="output hidden">
+            <div class="result-line" id="ageText"></div>
+            <div class="result-line" id="daysLived"></div>
+            <div class="result-line" id="nextBday"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
